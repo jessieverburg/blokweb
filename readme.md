@@ -5,6 +5,9 @@ https://jessieverburg.github.io/blokweb
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
+## Intakeopdracht (week 1)
+
+Ik heb gekozen voor de Blauwe piste, (je vindt code lastig. Je oefent buiten de vakken niet vaak. Met hulp lukt het meestal wel.) Ik denk vaak te moeilijk waardoor ik er niet uitkom. Maar ik kies ook een beetje voor de Rode piste, want ik vind coderen wel interessant en soms ook leuk om te doen. 
 
 
 ## Bronnenlijst
