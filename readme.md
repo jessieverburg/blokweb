@@ -7,15 +7,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intakeopdracht (week 1)
 
-Startniveau
+### Startniveau
 
 Ik heb gekozen voor de Blauwe piste, (je vindt code lastig. Je oefent buiten de vakken niet vaak. Met hulp lukt het meestal wel.) Ik denk vaak te moeilijk waardoor ik er niet uitkom. Maar ik kies ook een beetje voor de Rode piste, want ik vind coderen wel interessant en soms ook leuk om te doen. 
 
-Mijn keuze
+### Mijn keuze
 
 1A
 
-Mijn website
+### Mijn website
 
 https://www.bershka.com
 
