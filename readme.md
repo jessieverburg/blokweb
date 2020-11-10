@@ -1,4 +1,4 @@
-https://jessieverburg.github.io/blokweb/
+https://jessieverburg.github.io/blokweb
 
 # Procesverslag
 **Auteur:** -jouw naam-
