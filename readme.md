@@ -74,8 +74,7 @@ https://www.bershka.com
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
-
+<img src="images/breakdown schets-1.png">
 
 
 ## Intake (week 1)
