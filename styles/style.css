@@ -1,60 +1,69 @@
-/* CSS Document */
-*,
-*::after,
-*::before {
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Verdana;
-    margin: 0;
-}
+    background: url('https://i.postimg.cc/W43fnDpW/D-slide-woman-novedades-1-1.jpg'), url('https://i.postimg.cc/SKvQfCdK/Background-image-1.jpg');
+    background-size: cover, cover;
+    background-position: left top, left top;
+    background-repeat: no-repeat, repeat;
 
-.logo-top {
-    float: left;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    width: 130px;
-    position: fixed;
-}
-
-.dames-heren-nav {
-    display: flex;
-    padding: 15px;
-    color: white;
-    position: relative;
-}
-
-.dames-heren-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    list-style-type: none;
-}
-
-.dames-heren-nav li {
-    display: inline-block;
-    color: black;
     font-family: sans-serif;
-    padding: 10px 20px;
-    text-decoration: none;   
 }
 
-.achtergrond-afbeelding-1 {
-    background: url('https://i.postimg.cc/jqvPtgKV/Landing-Page-Desktop-Winter20-7.jpg') no-repeat center center/cover;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
+.iconen {
+    display: flex;
+    display: inline-block;
+    align-items: right;
+    height: 25px; /*?*/
 }
 
-.achtergrond-afbeelding-2 {
-    background: url('https://i.postimg.cc/3wFbXkd0/www-lundlund-com-styleby-5.jpg') no-repeat center center/cover;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 745px;
-    left: 0;
+.navbar {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    height: 20px;
+}
+
+.nav-2 {
+    text-align: left;
+}
+
+.nav-2 ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+.nav-2 ul li {
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.nav-2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-size: 20px;
+}
+
+.tekst-1 {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
