@@ -3,40 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>TEST WEBSITE BERSHKA</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Bershka</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="achtergrond-afbeelding-1"></div>
-        <div class="navbar">
-            <div class="logo">
-                <img src="img/Bershka%20logo.svg" alt="Bershka logo">
-            </div>
-            <div class="iconen">
-                <img src="img/heart.svg"> <a href="#"></a>
-                <img src="img/profile.svg"> <a href="#"></a>
-            </div>
+
+    <header class="header">
+        <button class="logo-button"><img class="logo-icon" src="https://upload.wikimedia.org/wikipedia/commons/7/75/Bershka_logo.svg" alt="Bershka logo"></button>
+
+
+        <!-- <div class="dames-heren">
+       <button class="dames">DAMES</button>
+       <button class="heren">HEREN</button>
+       </div> -->
+
+        <ul class="dames-heren">
+            <li><button><a href="#" class="dames">DAMES</a></button></li>
+            <li><button><a href="#" class="heren">HEREN</a></button></li>
+        </ul>
+
+        <div class="iconen">
+            <h1><img class="icon-size" src="https://www.flaticon.com/svg/static/icons/svg/54/54481.svg" alt="Search icon"></h1>
+            <h1><img class="icon-size" src="https://www.svgrepo.com/show/13666/heart.svg" alt="Heart icon"></h1>
+            <h1><img class="icon-size" src="https://www.flaticon.com/svg/static/icons/svg/694/694575.svg" alt="Bag icon"></h1>
         </div>
+
     </header>
 
-    <nav class="nav-2">
-        <button class="hamburger" id="hamburger">
-            <img src="img/hamburger-menu.svg" alt="Hamburger menu">
-        </button>
-        <ul>
-            <li><a href="#">Collectie</a></li>
-            <li><a href="#">Nieuw</a></li>
-            <li><a href="#">Behind Bershka</a></li>
-            <li><a href="#">Test3</a></li>
-            <li><a href="#">Test4</a></li>
+    <nav>
+        <button class="hamburger-button"><img class="hamburger-icon" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg" alt="Hamburger menu"></button>
+        <ul class="menu-items">
+            <li><a href="#" class="menu-item">Collectie</a></li>
+            <li><a href="#" class="menu-item">Nieuw </a></li>
+            <li><a href="#" class="menu-item">Behind Bershka</a></li>
+            <li><a href="#" class="menu-item">Schoenen</a></li>
+            <li><a href="#" class="menu-item">Accessoires</a></li>
+            <li><a href="#" class="menu-item">Join life</a></li>
+            <li><a href="#" class="menu-item">#bershkastyle</a></li>
         </ul>
     </nav>
 
-    <!-- <section class="tekst-1"> 
-         <h1>NEW</h1>
-    </section> --> 
+    <section>
+        <h1 class="t-shirts-en-tops">T-SHIRTS EN TOPS</h1>
+    </section>
 
-    <script src="js/script.js"></script>
-</body></html>
+    <section>
+        <h1 class="new">NEW</h1>
+    </section>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
