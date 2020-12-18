@@ -9,8 +9,8 @@ body {
     background: url('https://i.postimg.cc/W43fnDpW/D-slide-woman-novedades-1-1.jpg'), url('https://i.postimg.cc/SKvQfCdK/Background-image-1.jpg');
     background-attachment: scroll, scroll;
     background-position: center, center;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
+    background-repeat: no-repeat, repeat;
+    background-size: cover, cover; 
 
     min-height: 600px;
 
@@ -165,7 +165,7 @@ nav {
 
 .t-shirts-en-tops {
     position: absolute;
-    top: 140%;
+    top: 120%;
     left: 20%;
     font-size: 60px;
     color: black;
