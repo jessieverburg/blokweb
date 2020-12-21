@@ -6,20 +6,56 @@
 
 body {
     font-family: avenir;
-    background: url('https://i.postimg.cc/W43fnDpW/D-slide-woman-novedades-1-1.jpg'), url('https://i.postimg.cc/SKvQfCdK/Background-image-1.jpg');
-    background-attachment: scroll, scroll;
-    background-position: center, center;
-    background-repeat: no-repeat, repeat;
-    background-size: cover, cover;
-
-    min-height: 600px;
-
-
-    /* background-size: cover, cover;
-    background-position: left top, left top;
-    background-repeat: no-repeat, repeat; */
-
 }
+
+/* DAMES EN HEREN MENU*/
+
+.achtergrond-1 {
+    background: url('https://i.postimg.cc/W43fnDpW/D-slide-woman-novedades-1-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading-1 {
+    font-size: 5em;
+    font-style: italic;
+    color: white;
+}
+
+.achtergrond-2 {
+    background: url('https://i.postimg.cc/D0jrpZvG/Background-image-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading-2 {
+    font-size: 4em;
+    font-style: italic;
+    color: white;
+}
+
+.info {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+
+
 
 /* DAMES EN HEREN MENU*/
 
@@ -139,6 +175,7 @@ nav {
 @media(min-width: 769px) {
     .hamburger-button {
         display: none;
+
     }
 
     .header {
@@ -149,33 +186,48 @@ nav {
         display: flex;
         justify-content: space-between;
         margin: 0px 20px;
+
     }
 
     nav {
         margin-left: 20px;
         margin-top: 80px;
         position: fixed;
+
     }
 
 }
 
+/*------------ CSS GRID ------------*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+
+    background: grey;
+}
+
+.grid img {
+    max-width: 100%;
+}
+
+.info1 {
+    grid-column: span 3;
+    grid-row: span 1;
+    background-color: blue;
+}
+
+.figure-1 {
+    grid-column: span 5;
+    grid-row: span 1;
+}
+
+.figure-2 {}
 
 
 /*------------ TEKST OP PAGINA ------------*/
 
-.t-shirts-en-tops {
-    position: absolute;
-    top: 120%;
-    left: 20%;
-    font-size: 60px;
-    color: black;
-}
 
-.new {
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    font-size: 80px;
-    color: #f2f2f2;
-    font-style: italic;
-}
+/*------------ FOOTER ------------*/
