@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: avenir;
+}
+
+/* DAMES EN HEREN MENU*/
+
+.achtergrond-1 {
+    background: url('https://i.postimg.cc/W43fnDpW/D-slide-woman-novedades-1-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading-1 {
+    font-size: 5em;
+    font-style: italic;
+    color: white;
+}
+
+.achtergrond-2 {
+    background: url('https://i.postimg.cc/D0jrpZvG/Background-image-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading-2 {
+    font-size: 4em;
+    font-style: italic;
+    color: white;
+}
+
+.info {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* DAMES EN HEREN MENU*/
+
+.dames-heren li {
+    list-style: none;
+    color: black;
+    padding: 0.5em 0.70em;
+    font-size: 10px;
+}
+
+.dames-heren a {}
+
+
+.dames-heren {
+    position: fixed;
+    top: 20px;
+    left: 120px;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 20px;
+}
+
+.dames-heren button {
+    padding: 5px 8px 5px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 50px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.menu-items {
+    list-style: none;
+    display: block;
+}
+
+.menu-items li,
+a {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.iconen {
+    display: flex;
+    align-items: center;
+}
+
+.iconen h1 {
+    display: block;
+    padding: 0.5em 0.70em;
+    width: 10px;
+}
+
+.icon-size {
+    width: 20px;
+}
+
+.hamburger-icon {
+    width: 20px;
+    position: fixed;
+}
+
+.hamburger-button {
+    display: block;
+    margin-top: 25px;
+    background: #00000000;
+    border: none;
+}
+
+nav {
+    margin-left: 18px;
+    margin-top: 26px;
+}
+
+.logo-button {
+    background: #00000000;
+    border: none;
+}
+
+.logo-icon {
+    width: 70px;
+}
+
+/*------------ MEDIA QUERIS ------------*/
+
+@media(max-width: 768px) {
+    .menu-items {
+        display: none;
+    }
+
+    .menu-items.toggleCls {}
+
+    .dames-heren {
+        display: none;
+    }
+}
+
+@media(min-width: 769px) {
+    .hamburger-button {
+        display: none;
+
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+
+    }
+
+    nav {
+        margin-left: 20px;
+        margin-top: 80px;
+        position: fixed;
+
+    }
+
+}
+
+/*------------ CSS GRID ------------*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+
+    background: grey;
+}
+
+.grid img {
+    max-width: 100%;
+}
+
+.info1 {
+    grid-column: span 3;
+    grid-row: span 1;
+    background-color: blue;
+}
+
+.figure-1 {
+    grid-column: span 5;
+    grid-row: span 1;
+}
+
+.figure-2 {}
+
+
+/*------------ TEKST OP PAGINA ------------*/
+
+
+/*------------ FOOTER ------------*/
