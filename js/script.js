@@ -1,5 +1,4 @@
-function toggleClass() {
-  let menu = document.querySelector(".hamburger-button");
-  menu.classList.toggle("toggleCls");
+function toggleClass(){
+    let menu = document.querySelector(".menu-items");
+    menu.classList.toggle("toggleCls");
 }
-
