@@ -55,6 +55,12 @@ body {
 
 /* DAMES EN HEREN MENU*/
 
+.dames-heren  {
+    list-style: none;
+    color: black;
+    font-size: 10px;
+}
+
 .dames-heren {
     position: fixed;
     top: 24px;
@@ -63,9 +69,6 @@ body {
     display: flex;
     justify-content: flex-start;
     margin: 0px 20px;
-    list-style: none;
-    color: black;
-    font-size: 10px;
 }
 
 .dames-heren button {
