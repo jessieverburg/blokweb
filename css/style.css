@@ -141,7 +141,7 @@ a {
 
 .iconen img {
     padding: 0.5em;
-    width: 2.2em;
+    width: 2.4em;
     margin-right: 10px;
     margin-bottom: 8px;
 }
@@ -451,10 +451,13 @@ ul {
     max-width: 700px;
     height: auto;
     float: left;
-
 }
 
 
+foto_en_beschrijving {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 /*------------ MEDIA DESKTOP ------------*/
 
@@ -596,6 +599,7 @@ ul {
     .afbeeldingen-bucket-hoed {
         display: none;
     }
+
     .maak_je_look_compleet ul {
         display: flex;
     }
