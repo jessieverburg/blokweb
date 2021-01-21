@@ -21,9 +21,13 @@ https://www.bershka.com
 
 ## Bronnenlijst
 1. https://www.youtube.com/watch?v=4jelwvPcS8w
-2. -bron 2-
-3. -...-
-
+2. https://youtu.be/n5jq6OCWE3c
+3. https://youtu.be/-FLzc77MstY
+4. https://youtu.be/plRcoRqLriw
+5. https://youtu.be/vsBaCblIOuQ
+6. https://youtu.be/e2RQM4pE8uI
+7. https://www.w3schools.com/howto/howto_js_toggle_class.asp
+8. https://www.w3schools.com/jsref/event_onmouseleave.asp
 
 
 ## Eindgesprek (week 7/8)

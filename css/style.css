@@ -19,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 35px;
+    margin-top: 2.18px;
 }
 
 .heading-1 {
@@ -50,7 +50,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 2.5em;
 }
 
 
@@ -58,11 +58,11 @@ body {
 
 .dames-heren {
     position: fixed;
-    left: 120px;
+    left: 10.5em;
     right: 0;
     display: flex;
     justify-content: flex-start;
-    margin: 0px 20px;
+    margin: 0em 1.5em;
     list-style: none;
     color: black;
     font-size: 10px;
@@ -75,7 +75,7 @@ body {
     border-radius: 5px;
     transition: 0.2s;
     background: none;
-    margin-top: 6px;
+    margin-top: 0.5em;
 }
 
 .dames-heren button:hover {
@@ -107,7 +107,6 @@ body {
 .header a {
     text-decoration: none;
     color: black;
-    font-size: 13px;
 }
 
 .menu-items {
@@ -147,7 +146,7 @@ a {
 }
 
 .icon-size {
-    width: 20px;
+    width: 1em;
 }
 
 .hamburger-icon {
@@ -209,6 +208,8 @@ nav {
         "d e f"
         "d e f";
     grid-gap: 5px;
+    grid-template-rows: repeat(4, 1fr);
+
 }
 
 .berksha_style__container img {
@@ -225,6 +226,11 @@ nav {
     grid-area: a;
     width: 100%;
     height: 250px;
+
+}
+
+.beschrijving-grid {
+    padding: 20px;
 }
 
 .berksha_style__container img:first-of-type {
@@ -454,16 +460,25 @@ ul {
 }
 
 
-foto_en_beschrijving {
+.foto_en_beschrijving {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.afbeeldingen-bucket-hoedden {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.afbeeldingen-bucket-hoedden img {
+    width: 100%;
 }
 
 /*------------ MEDIA DESKTOP ------------*/
 
 @media screen and (min-width: 769px) {
     .product_info {
-        float: left;
+
         margin-left: 100px;
         margin-top: 150px;
     }
@@ -522,15 +537,10 @@ foto_en_beschrijving {
 
 @media(max-width: 768px) {
 
-    .product_info {
-        margin-left: 1.2em;
-    }
 
     .titel {
         padding-top: 1.2em
     }
-
-    .price {}
 
     .ref {
         font-size: 0.7rem;
@@ -602,5 +612,47 @@ foto_en_beschrijving {
 
     .maak_je_look_compleet ul {
         display: flex;
+    }
+
+    .afbeeldingen-bucket-hoedden img {
+        display: none;
+    }
+
+    .product_info {
+        float: left;
+    }
+
+    .product-image-1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .product-detail-foto {
+        width: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .foto_en_beschrijving {
+        display: flex;
+        align-items: center;
+    }
+
+    .aan-mandje-toevoegen-button {
+        font-family: avenir;
+        font-weight: 800;
+        color: white;
+        padding: 1em 10.5em 1em 10.5em;
+        margin-top: 1.3em;
+        margin-bottom: 2.7em;
+        border: none;
+        border-radius: 0.3em;
+        transition: 0.2s;
+        background: black;
+        cursor: pointer;
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+
     }
 }
